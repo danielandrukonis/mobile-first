@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background: url("/14-diena-Mobile-first/1-uzduotis/mobile-first/assets/bg.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.intro {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    z-index: 1;
+    margin-top: 0;
+    padding: 0.6rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav a {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-decoration:none;
+    color: white;
+}
+
+.header-content-wrapper {
+    padding: 0 2rem;
+}
+
+nav li {
+    padding-bottom: 1.2rem;
+}
+
+nav li:last-child {
+    padding-bottom: 2rem;
+}
+
+.heading img {
+    padding: 2rem 0;
+}
